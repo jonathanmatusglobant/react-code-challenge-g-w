@@ -1,4 +1,4 @@
-import Button from '@components/UI/button';
+import { Button } from '@components/UI';
 
 export default function CounterButton({ incrementCounter }) {
     return (

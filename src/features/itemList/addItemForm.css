@@ -1,0 +1,19 @@
+.add-item-form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin: 0 auto;
+    align-items: center;
+}
+
+.add-item-form .error {
+    font-weight: 500;
+    font-size: 12px;
+    color: #ed254e;
+    overflow-wrap: break-word;
+}
+
+.add-item-form .form-container {
+    display: flex;
+    gap: 10px;
+}
