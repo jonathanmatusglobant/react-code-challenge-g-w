@@ -1,0 +1,15 @@
+.button {
+    border-radius: 4px;
+    border: none;
+    padding: 8px;
+    font-weight: 700;
+}
+
+.button:hover {
+    filter: brightness(0.9);
+}
+
+.button.primary {
+    background-color: #2274a5;
+    color: #ffffff;
+}
