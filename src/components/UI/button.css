@@ -13,3 +13,8 @@
     background-color: #2274a5;
     color: #ffffff;
 }
+
+.button.secondary {
+    background-color: #d6e3f8;
+    color: black;
+}
