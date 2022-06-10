@@ -1,0 +1,27 @@
+.card {
+    display: flex;
+    background-color: white;
+    box-shadow: 0px 5px 7px -4px #4a4a4a;
+    border-radius: 4px;
+    color: black;
+}
+
+.card.primary {
+    background-color: #2274a5;
+    color: #ffffff;
+}
+
+.card.secondary {
+    background-color: #d6e3f8;
+    color: black;
+}
+
+.card.dark {
+    background-color: #2c2b2b;
+    color: white;
+    box-shadow: 0px 5px 7px -4px #1b1b1b;
+}
+
+.card.elevation-2 {
+    background-color: #333333;
+}
