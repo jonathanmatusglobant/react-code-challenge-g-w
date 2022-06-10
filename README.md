@@ -1,10 +1,16 @@
 # React Challenges
 
+# Steps to run the project
+
+Run `npm install` then `npm run dev` at the project directory.
+
+# Challenges
+
 ## Create a Counter but with a twist
 
-Creating a basic counter with a button that increments the displayed value by 1 is a simple task. But with some added conditions, the same task can become tough. 
+Creating a basic counter with a button that increments the displayed value by 1 is a simple task. But with some added conditions, the same task can become tough.
 
-Suppose, we have a component, which contains a state variable (declared using the useState React hook) that tracks the value for the counter. The value is also displayed in this component, but the button that increments the value is present in the child component of this component. 
+Suppose, we have a component, which contains a state variable (declared using the useState React hook) that tracks the value for the counter. The value is also displayed in this component, but the button that increments the value is present in the child component of this component.
 
 Find the possible ways to solve this problem. It can be solved using one of the following ways.
 
@@ -32,4 +38,3 @@ While fetch API is inbuilt, Axios is installed through NPM and is considered a b
 API: https://jsonplaceholder.typicode.com/posts/1/comments
 
 > EXTRA BONUS COMBINE THE THREE SOLUTIONS IN ONE SINGLE APP
-
