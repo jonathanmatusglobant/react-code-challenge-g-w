@@ -1,5 +1,6 @@
 import { useState } from 'react';
 import { generateRandomID } from '@utils/globalUtils';
+import { Card } from '@components/UI';
 import Item from './item';
 import AddItemForm from './addItemForm';
 import './itemList.css';
@@ -16,7 +17,7 @@ export default function ItemList() {
     };
 
     return (
-        <div className='item-list-container'>
+        <Card className='item-list-container'>
             <AddItemForm onAddItem={onAddItemHandler} />
             <hr />
             <ul className='item-list-items'>
@@ -24,6 +25,6 @@ export default function ItemList() {
                     <Item key={item.id} item={item} onRemove={onRemoveItemHandler} />
                 ))}
             </ul>
-        </div>
+        </Card>
     );
 }

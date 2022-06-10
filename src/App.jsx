@@ -1,6 +1,6 @@
 import logo from './logo.svg';
 import './App.css';
-import { ItemList, Counter } from '@features';
+import { ItemList, Counter, Comments } from '@features';
 
 function App() {
     return (
@@ -10,7 +10,7 @@ function App() {
                 <p>React Challenge</p>
             </header>
             <main>
-                <ItemList />
+                <Comments />
             </main>
         </div>
     );

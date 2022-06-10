@@ -10,6 +10,8 @@ export default defineConfig({
             { find: '@components', replacement: path.resolve(__dirname, 'src/components') },
             { find: '@features', replacement: path.resolve(__dirname, 'src/features') },
             { find: '@utils', replacement: path.resolve(__dirname, 'src/utils') },
+            { find: '@hooks', replacement: path.resolve(__dirname, 'src/hooks') },
+            { find: '@constants', replacement: path.resolve(__dirname, 'src/constants') },
         ],
     },
 });

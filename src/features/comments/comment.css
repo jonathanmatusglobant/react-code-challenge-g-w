@@ -1,0 +1,20 @@
+.card-comment {
+    display: flex;
+    gap: 10px;
+    padding: 10px;
+}
+
+.card-author {
+    flex-direction: column;
+    padding: 10px;
+}
+
+.card-author p {
+    font-weight: 500;
+}
+
+.card-author p:nth-child(2) {
+    font-size: 13px;
+    margin-top: 10px;
+    font-weight: 300;
+}

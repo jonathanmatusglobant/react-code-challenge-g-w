@@ -1,0 +1,13 @@
+.comments {
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.card--comments {
+    flex-direction: column;
+    gap: 4px;
+    max-width: 80%;
+    margin: 0 auto;
+    padding: 20px;
+}
